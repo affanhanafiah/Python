@@ -119,9 +119,9 @@ def update_graph(demo_dropdown, tahun_dropdown):
     balik = False
 
     if '1' in tahun_dropdown:
-        df = pd.read_csv('Tidak Berjudul 2.csv')
+        df = pd.read_csv('2018.csv')
     if '2' in tahun_dropdown:
-        df = pd.read_csv('Tidak Berjudul 1.csv')
+        df = pd.read_csv('2019.csv')
 
     if '1' in demo_dropdown:
         data = df['Score']
